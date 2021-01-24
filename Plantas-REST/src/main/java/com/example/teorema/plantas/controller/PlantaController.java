@@ -9,6 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -77,16 +79,54 @@ public class PlantaController {
 	}
 	
 	@PostMapping("/cruzamento")
-	ResponseEntity<Void> cruzarPlantas(@Valid @RequestBody CruzamentoDTO plantasCruzamento) {
+	ResponseEntity cruzarPlantas(@Valid @RequestBody CruzamentoDTO plantasCruzamento) {
 		PlantaModel parent1 = plantasCruzamento.getParent1();
 		PlantaModel parent2 = plantasCruzamento.getParent2();
-		
+		PlantaModel[] children = new PlantaModel[4];
 		if (parent1.getClassePlanta().equals(parent2.getClassePlanta())) {
-			List<CaracteristicaModel> caracteristicas = parent1.getCaracteristicas();
+			List<CaracteristicaModel> caracteristicas = parent1.getCaracteristicas()
+					.stream()
+					.filter(caracteristica -> caracteristica.getAlelos().size() == 2)
+					.collect(Collectors.toList());
 			parent2.getCaracteristicas()
 					.stream()
-					.filter(caracteristica -> !caracteristicas.contains(caracteristica.getId()))
-					.forEach(caracteristica -> caracteristicas.add(caracteristica));
+					.filter(caracteristica -> !caracteristicas.contains(caracteristica.getId()) && caracteristica.getAlelos().size() == 2)
+					.forEach(caracteristica -> {
+						caracteristica.setGenotipos(new ArrayList<>());
+						caracteristicas.add(caracteristica);
+					});
+			
+			if(caracteristicas.isEmpty()) {
+				throw new IllegalArgumentException("Não há como realizar o cruzamento por número inesperado de alelos");
+			}
+			
+			for (int i = 0; i < children.length; i++) {
+				children[i] = new PlantaModel();
+				children[i].setCaracteristicas(caracteristicas);
+				children[i].setNmPlanta(i %2 == 0 ? parent1.getNmPlanta() : parent2.getNmPlanta());
+			}
+			
+			caracteristicas.forEach(caracteristica -> {
+				Arrays.asList(children).forEach(child -> {
+					child.setFiloPlanta(parent1.getFiloPlanta());
+					child.setClassePlanta(parent1.getClassePlanta());
+					child.setFamiliaPlanta(parent1.getFamiliaPlanta());
+					for (int i = 0; i < 2; i++) {
+						for (int j = 0; j < 2; j++) {
+							CaracteristicaModel caracteristicaChild = child.getCaracteristicas()
+									.stream()
+									.filter(caracteristicaFilter -> caracteristica.getId().equals(caracteristicaFilter.getId()))
+									.findFirst()
+									.orElse(null);
+							
+							caracteristicaChild.setGenotipos(Arrays.asList(caracteristica.getAlelos().get(i), caracteristica.getAlelos().get(j)));
+						}
+					}
+				});
+			});
+			
+
+				plantaRepository.saveAll(Arrays.asList(children));
 			
 			
 		} else {
@@ -94,7 +134,7 @@ public class PlantaController {
 		}
 		
 		
-		return new ResponseEntity<>(HttpStatus.OK);
+		return new ResponseEntity(children, HttpStatus.OK);
 	}
 	
 }
