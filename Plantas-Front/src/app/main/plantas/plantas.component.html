@@ -1,0 +1,11 @@
+<div class="card">
+  <a (click)="clicked = !clicked">{{ planta.nmPlanta }}</a>
+  <div *ngIf="clicked" class="button-div">
+    <div class="inline">
+      <button (click)="openForEdit()">Editar</button>
+    </div>
+    <div class="inline">
+      <button (click)="openForInfo()">Visualizar Informações</button>
+    </div>
+  </div>
+</div>

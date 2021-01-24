@@ -1,0 +1,23 @@
+.center {
+  margin-left: 20vh;
+  margin-top: 30px;
+  div {
+    display: inline;
+    padding: 0 30vh;
+    &.middle {
+      padding: 0 50px;
+      margin: 0;
+    }
+  }
+}
+
+button {
+  padding: 6px 10px;
+  margin: 16px 0;
+  border: none;
+  outline: none;
+  background-color: #9cda9c;
+  &:active {
+    background-color: #56a756;
+  }
+}

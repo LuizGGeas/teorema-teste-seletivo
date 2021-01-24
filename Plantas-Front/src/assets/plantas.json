@@ -1,0 +1,4462 @@
+[
+    {
+        "id": 1,
+        "nome": "Deqlasse",
+        "caracteristicas": [
+            {
+                "id": 1,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Kershane",
+        "caracteristicas": [
+            {
+                "id": 8,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Echogroom",
+        "caracteristicas": [
+            {
+                "id": 15,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nome": "Ezugettle",
+        "caracteristicas": [
+            {
+                "id": 22,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "nome": "Anuphoom",
+        "caracteristicas": [
+            {
+                "id": 29,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "nome": "Efyassons",
+        "caracteristicas": [
+            {
+                "id": 36,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 38,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "nome": "Chricros",
+        "caracteristicas": [
+            {
+                "id": 43,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 45,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 46,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 47,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 48,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 49,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "nome": "Iruantamire",
+        "caracteristicas": [
+            {
+                "id": 50,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 51,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 52,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 53,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 54,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 55,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 56,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "nome": "Aching Polkweed",
+        "caracteristicas": [
+            {
+                "id": 57,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    }
+                ]
+            },
+            {
+                "id": 58,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 60,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 61,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 62,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 63,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "nome": "Ezeepax",
+        "caracteristicas": [
+            {
+                "id": 64,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 65,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 66,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 67,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 68,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 69,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 70,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "nome": "Oknarmood",
+        "caracteristicas": [
+            {
+                "id": 71,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    }
+                ]
+            },
+            {
+                "id": 72,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 73,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 74,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 75,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 76,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 77,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "nome": "Eefijina",
+        "caracteristicas": [
+            {
+                "id": 78,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    }
+                ]
+            },
+            {
+                "id": 79,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 80,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 81,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 82,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 83,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 84,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "nome": "Nissequin",
+        "caracteristicas": [
+            {
+                "id": 85,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 86,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 87,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 88,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 89,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 90,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 91,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "nome": "Spibget",
+        "caracteristicas": [
+            {
+                "id": 92,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    }
+                ]
+            },
+            {
+                "id": 93,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 94,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 95,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 96,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 97,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 98,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "nome": "Criwirin",
+        "caracteristicas": [
+            {
+                "id": 99,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    }
+                ]
+            },
+            {
+                "id": 100,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 101,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 102,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 103,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 104,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 105,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "nome": "Esroddons",
+        "caracteristicas": [
+            {
+                "id": 106,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 107,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 108,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 109,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 110,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 111,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 112,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "nome": "Weflard",
+        "caracteristicas": [
+            {
+                "id": 113,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    }
+                ]
+            },
+            {
+                "id": 114,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 115,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 116,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 117,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 118,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 119,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "nome": "Glestrons",
+        "caracteristicas": [
+            {
+                "id": 120,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 121,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 122,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    },
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    }
+                ]
+            },
+            {
+                "id": 123,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 124,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 125,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 126,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    },
+                    {
+                        "id": 14,
+                        "valor": "G",
+                        "nome": "Alto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "nome": "Okniacet",
+        "caracteristicas": [
+            {
+                "id": 127,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 128,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 3,
+                        "valor": "b",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 129,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 130,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    }
+                ]
+            },
+            {
+                "id": 131,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 10,
+                        "valor": "E",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 132,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 11,
+                        "valor": "f",
+                        "nome": "Axial"
+                    }
+                ]
+            },
+            {
+                "id": 133,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "nome": "Praqlegon",
+        "caracteristicas": [
+            {
+                "id": 134,
+                "caracteristica": {
+                    "id": 1,
+                    "nome": "Forma da semente",
+                    "alelos": [
+                        {
+                            "id": 1,
+                            "valor": "a",
+                            "nome": "Ondulada"
+                        },
+                        {
+                            "id": 2,
+                            "valor": "A",
+                            "nome": "Lisa"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 2,
+                        "valor": "A",
+                        "nome": "Lisa"
+                    },
+                    {
+                        "id": 1,
+                        "valor": "a",
+                        "nome": "Ondulada"
+                    }
+                ]
+            },
+            {
+                "id": 135,
+                "caracteristica": {
+                    "id": 2,
+                    "nome": "Cor da semente",
+                    "alelos": [
+                        {
+                            "id": 3,
+                            "valor": "b",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 4,
+                            "valor": "B",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    },
+                    {
+                        "id": 4,
+                        "valor": "B",
+                        "nome": "Verde"
+                    }
+                ]
+            },
+            {
+                "id": 136,
+                "caracteristica": {
+                    "id": 3,
+                    "nome": "Cor da flor",
+                    "alelos": [
+                        {
+                            "id": 5,
+                            "valor": "c",
+                            "nome": "Purpura"
+                        },
+                        {
+                            "id": 6,
+                            "valor": "C",
+                            "nome": "Branca"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 6,
+                        "valor": "C",
+                        "nome": "Branca"
+                    },
+                    {
+                        "id": 5,
+                        "valor": "c",
+                        "nome": "Purpura"
+                    }
+                ]
+            },
+            {
+                "id": 137,
+                "caracteristica": {
+                    "id": 4,
+                    "nome": "Forma da vagem",
+                    "alelos": [
+                        {
+                            "id": 7,
+                            "valor": "d",
+                            "nome": "Constrita"
+                        },
+                        {
+                            "id": 8,
+                            "valor": "D",
+                            "nome": "Inflada"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 7,
+                        "valor": "d",
+                        "nome": "Constrita"
+                    },
+                    {
+                        "id": 8,
+                        "valor": "D",
+                        "nome": "Inflada"
+                    }
+                ]
+            },
+            {
+                "id": 138,
+                "caracteristica": {
+                    "id": 5,
+                    "nome": "Cor da vagem",
+                    "alelos": [
+                        {
+                            "id": 9,
+                            "valor": "e",
+                            "nome": "Amarela"
+                        },
+                        {
+                            "id": 10,
+                            "valor": "E",
+                            "nome": "Verde"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    },
+                    {
+                        "id": 9,
+                        "valor": "e",
+                        "nome": "Amarela"
+                    }
+                ]
+            },
+            {
+                "id": 139,
+                "caracteristica": {
+                    "id": 6,
+                    "nome": "Posicao da flor",
+                    "alelos": [
+                        {
+                            "id": 11,
+                            "valor": "f",
+                            "nome": "Axial"
+                        },
+                        {
+                            "id": 12,
+                            "valor": "F",
+                            "nome": "Terminal"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    },
+                    {
+                        "id": 12,
+                        "valor": "F",
+                        "nome": "Terminal"
+                    }
+                ]
+            },
+            {
+                "id": 140,
+                "caracteristica": {
+                    "id": 7,
+                    "nome": "Comprimento do caule",
+                    "alelos": [
+                        {
+                            "id": 13,
+                            "valor": "g",
+                            "nome": "Anao"
+                        },
+                        {
+                            "id": 14,
+                            "valor": "G",
+                            "nome": "Alto"
+                        }
+                    ]
+                },
+                "genotipo": [
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    },
+                    {
+                        "id": 13,
+                        "valor": "g",
+                        "nome": "Anao"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+div {
+  height: 140px;
+  width: 100%;
+  text-align: center;
+  background: #047a35;
+
+  h1 {
+    margin: 0 16px;
+    padding-top: 16px;
+    color: #99c0a9;
+  }
+
+  nav.header-footer {
+    text-align: left;
+    padding-top: 30px;
+
+    ul li {
+      a {
+
+        &:visited {
+          color: #99c0a9;
+        }
+        padding: 16px;
+        text-decoration: none;
+
+        &span {
+          font-size: larger;
+          color: #99c0a9;
+        }
+      }
+      list-style: none;
+      display: inline;
+    }
+  }
+
+  .is-active {
+    background-color: #229753ad;
+    padding: 16px;
+    a:active {
+      color: #72c23d;
+    }
+  }
+}

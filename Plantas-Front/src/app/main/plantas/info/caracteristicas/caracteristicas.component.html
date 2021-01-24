@@ -1,0 +1,16 @@
+<div [formGroup]="form" class="caracteristicas">
+  <app-input [form]="form.get('nome')" label="Característica"></app-input>
+  <div>
+    <h4>Genótipos</h4>
+    <div *ngFor="let genotipo of genotipos.controls">
+      <div [formGroup]="getFormGroup(genotipo)">
+        <app-input
+          [form]="genotipo.get('nome')"
+          label="Nome da caracteristica"
+        ></app-input>
+        <input type="radio" formControlName="valor" value="A"/> <span>Dominante</span>
+        <input type="radio" formControlName="valor" value="a"/> <span>Recessivo</span>
+      </div>
+    </div>
+  </div>
+</div>

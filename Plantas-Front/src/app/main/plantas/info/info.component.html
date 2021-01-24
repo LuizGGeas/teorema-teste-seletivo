@@ -1,0 +1,58 @@
+<div class="header">
+  <div *ngIf="planta || acao == 'new'" class="form">
+    <div [formGroup]="form">
+      <div class="card">
+        <div class="card-header">
+          <div class="inline">
+            <h3>Informações da planta</h3>
+          </div>
+        </div>
+        <div>
+          <app-input [form]="form.get('filoPlanta')" label="Filo"></app-input>
+          <app-input
+            [form]="form.get('classePlanta')"
+            label="Classe"
+          ></app-input>
+          <app-input [form]="form.get('ordemPlanta')" label="Ordem"></app-input>
+          <app-input
+            [form]="form.get('familiaPlanta')"
+            label="Família"
+          ></app-input>
+          <app-input
+            [form]="form.get('nmPlanta')"
+            label="Nome da Planta"
+          ></app-input>
+        </div>
+      </div>
+      <div class="card" formArrayName="caracteristicas">
+        <div
+          class="card-header"
+          (click)="
+            isPlantaCaracteristicasOpened = !isPlantaCaracteristicasOpened
+          "
+        >
+          <div class="inline">
+            <h3>Caracteristica da planta</h3>
+          </div>
+          <i class="material-icons">
+            {{isPlantaCaracteristicasOpened ? "expand_more" : "chevron_right"}}
+          </i>
+        </div>
+        <div *ngIf="isPlantaCaracteristicasOpened" class="caracteristicas">
+          <div *ngFor="let caracteristica of caracteristicas.controls;let i = index" [formGroupName]="i">
+            <hr *ngIf="i <= caracteristicas.length && i != 0"/>
+            <app-caracteristicas [form]="getFormGroup(i)" [acao]="acao"></app-caracteristicas>
+          </div>
+
+          <div *ngIf="acao !== 'info'">
+            <button (click)="addCaracteristicaToForm()">
+              Adicionar Nova Caracteristica
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button *ngIf="acao !== 'info'" (click)="salvarPlanta()">SALVAR PLANTA</button>
+    <p *ngIf="form.touched && form.invalid">Há informações que não foram preenchidas corretamente</p>
+  </div>
+</div>
