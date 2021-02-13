@@ -1,6 +1,7 @@
-import { PlantaSelecionadaService } from './../../services/planta-selecionada.service';
-import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
+import { PlantaService } from './../../services/planta.service';
+import { Component, OnInit } from '@angular/core';
 import { Planta } from 'src/app/shared/models/planta';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-plantas',
@@ -8,21 +9,20 @@ import { Planta } from 'src/app/shared/models/planta';
   styleUrls: ['./plantas.component.scss'],
 })
 export class PlantasComponent implements OnInit {
-  @Input() planta: Planta;
+  plantaList: Planta[];
 
-  clicked = false;
+  constructor(
+    private plantasService: PlantaService,
+    private router: Router
+  ) {}
 
-  constructor(private plantaSelecionada: PlantaSelecionadaService) {}
-
-  ngOnInit(): void {}
-
-  openForEdit(): void {
-    const editOpened = `${this.planta.idPlanta}_edit`;
-    this.plantaSelecionada.plantaSelecionada.emit(editOpened);
+  ngOnInit(): void {
+    this.plantasService.getPlantasList().subscribe((plantas) => {
+      this.plantaList = plantas;
+    });
   }
 
-  openForInfo(): void {
-    const editOpened = `${this.planta.idPlanta}_info`;
-    this.plantaSelecionada.plantaSelecionada.emit(editOpened);
+  createNewPlanta(): void {
+    this.router.navigate(['/plantas/new'])
   }
 }

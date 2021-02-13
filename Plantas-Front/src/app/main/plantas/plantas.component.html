@@ -1,11 +1,24 @@
-<div class="card">
-  <a (click)="clicked = !clicked">{{ planta.nmPlanta }}</a>
-  <div *ngIf="clicked" class="button-div">
-    <div class="inline">
-      <button (click)="openForEdit()">Editar</button>
+<div>
+  <div class="inline first">
+    <div *ngIf="plantaList; else semPlantas" class="scrollable">
+      <div *ngFor="let planta of plantaList">
+        <app-itens
+          [planta]="planta"
+        ></app-itens>
+      </div>
     </div>
-    <div class="inline">
-      <button (click)="openForInfo()">Visualizar Informações</button>
+    <div>
+      <ng-template #semPlantas>
+        <h2>Não há plantas a serem apresentadas</h2>
+      </ng-template>
     </div>
+    <div>
+      <button type="button" class="round-button" (click)="createNewPlanta()">
+        <i class="material-icons">add</i>
+      </button>
+    </div>
+  </div>
+  <div class="inline">
+    <router-outlet></router-outlet>
   </div>
 </div>

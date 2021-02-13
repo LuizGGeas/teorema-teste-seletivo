@@ -1,38 +1,33 @@
-.card {
-  a {
-    display: inline;
-    text-overflow: unset;
-    padding: 16px;
-    &:visited {
-      color: #4da12be0;
-    }
+.inline {
+  display: inline-block;
+  width: 47%;
+  height: 76vh;
+  padding:16px;
+
+  &.first {
+      border-right: 3px solid black;
+      height: 80vmax;
   }
+}
 
-  width: 40%;
-  text-align: center;
-  border-radius: 3;
-  border: 1px solid #b0dd9fe0;
-  padding: 16px;
-  margin: 16px;
-  margin-left: 25%;
-  color: #4da12be0;
+.scrollable {
+margin-top: 18px;
+margin-right: -12px;
+overflow-y: scroll;
+height: 76vh;
+}
 
-  .button-div {
-    padding: 10px;
-    & .inline {
-      display: inline;
-      width: fit-content;
-      padding: 2%;
-
-      button {
-        padding: 6px 10px;
-        border: none;
-        outline: none;
-        background-color: #9cda9c;
-        &:active {
-          background-color: #56a756;
-        }
-      }
-    }
-  }
+.round-button {
+position: fixed;
+bottom: 3vh;
+left: 42vmax;
+border: 1px solid rgb(120, 190, 120);
+background-color:  rgb(120, 190, 120);
+border-radius: 50%;
+outline: none;
+padding: 4px 6px;
+&:active {
+  border: 1px solid rgb(101, 161, 101);
+  background-color: rgb(101, 161, 101);
+}
 }
