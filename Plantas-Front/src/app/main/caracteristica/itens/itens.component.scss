@@ -1,0 +1,38 @@
+.card {
+  a {
+    display: inline;
+    text-overflow: unset;
+    padding: 16px;
+    &:visited {
+      color: #4da12be0;
+    }
+  }
+
+  width: 40%;
+  text-align: center;
+  border-radius: 3;
+  border: 1px solid #b0dd9fe0;
+  padding: 16px;
+  margin: 16px;
+  margin-left: 25%;
+  color: #4da12be0;
+
+  .button-div {
+    padding: 10px;
+    & .inline {
+      display: inline;
+      width: fit-content;
+      padding: 2%;
+
+      button {
+        padding: 6px 10px;
+        border: none;
+        outline: none;
+        background-color: #9cda9c;
+        &:active {
+          background-color: #56a756;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<div>
+  <div class="inline first">
+    <div *ngIf="caracteristicaList; else semPlantas" class="scrollable">
+      <div *ngFor="let caracteristica of caracteristicaList">
+        <app-itens [caracteristica]="caracteristica"></app-itens>
+      </div>
+    </div>
+    <div>
+      <ng-template #semPlantas>
+        <h2>Não há características a serem apresentadas</h2>
+      </ng-template>
+    </div>
+    <div>
+      <button type="button" class="round-button" (click)="createNewCaracteristica()">
+        <i class="material-icons">add</i>
+      </button>
+    </div>
+  </div>
+  <div class="inline">
+    <router-outlet></router-outlet>
+  </div>
+</div>

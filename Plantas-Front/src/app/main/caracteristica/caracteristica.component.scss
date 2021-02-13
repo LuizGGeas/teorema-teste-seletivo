@@ -1,0 +1,33 @@
+.inline {
+  display: inline-block;
+  width: 47%;
+  height: 76vh;
+  padding:16px;
+
+  &.first {
+      border-right: 3px solid black;
+      height: 80vmax;
+  }
+}
+
+.scrollable {
+margin-top: 18px;
+margin-right: -12px;
+overflow-y: scroll;
+height: 76vh;
+}
+
+.round-button {
+position: fixed;
+bottom: 3vh;
+left: 42vmax;
+border: 1px solid rgb(120, 190, 120);
+background-color:  rgb(120, 190, 120);
+border-radius: 50%;
+outline: none;
+padding: 4px 6px;
+&:active {
+  border: 1px solid rgb(101, 161, 101);
+  background-color: rgb(101, 161, 101);
+}
+}
