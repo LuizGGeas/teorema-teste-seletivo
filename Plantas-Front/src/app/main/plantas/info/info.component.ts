@@ -2,16 +2,14 @@ import { Alelo } from './../../../shared/models/alelo';
 import { Caracteristica } from './../../../shared/models/caracteristica';
 import { PlantaService } from './../../../services/planta.service';
 import { PlantaSelecionadaService } from './../../../services/planta-selecionada.service';
-import { MainComponent } from './../../main.component';
-import { Component, Input, OnInit } from '@angular/core';
-import {
-  AbstractControl,
-  FormArray,
-  FormControl,
-  FormGroup,
-  Validators,
-} from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
+import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Planta } from 'src/app/shared/models/planta';
+import {
+  ActivatedRoute,
+  ActivatedRouteSnapshot,
+  RouterStateSnapshot,
+} from '@angular/router';
 
 @Component({
   selector: 'app-info',
@@ -34,31 +32,26 @@ export class InfoComponent implements OnInit {
 
   constructor(
     private plantaSelecionada: PlantaSelecionadaService,
-    private plantaService: PlantaService
+    private plantaService: PlantaService,
+    private routeSnapshot: ActivatedRoute
   ) {}
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.initalizeForm();
+    this.routeSnapshot.params.subscribe(async (data) => {
+      const { id, mode } = data;
 
-    this.plantaSelecionada.plantaSelecionada.subscribe(async (info: string) => {
-      if (info && info !== 'new') {
-        const [indexPlanta, acao] = info.split('_');
-        this.acao = acao;
-        this.initalizeForm();
-        this.planta = await this.plantaService
-          .getPlanta(indexPlanta)
-          .toPromise();
+      if (id) {
+        this.planta = await this.plantaService.getPlanta(id).toPromise();
         this.form.patchValue(this.planta);
         const caracteristicasForm: FormGroup[] = this.planta.caracteristicas.map(
           (caracteristica) =>
-            this.convertPlantaCaracteristicaToForm(caracteristica, acao)
+            this.convertPlantaCaracteristicaToForm(caracteristica, mode)
         );
         this.caracteristicas.clear();
         caracteristicasForm.forEach((element) => {
           this.caracteristicas.push(element);
         });
-      } else {
-        this.acao = info;
-        this.caracteristicas.push(this.convertPlantaCaracteristicaToForm(null, 'new'));
       }
     });
   }
@@ -90,7 +83,10 @@ export class InfoComponent implements OnInit {
     });
   }
 
-  convertPlantaCaracteristicaToForm(caracteristica: Caracteristica, acao: string): FormGroup {
+  convertPlantaCaracteristicaToForm(
+    caracteristica: Caracteristica,
+    acao: string
+  ): FormGroup {
     if (caracteristica) {
       const caracteristicaForm = new FormGroup({
         id: new FormControl(caracteristica.id),
@@ -158,7 +154,9 @@ export class InfoComponent implements OnInit {
   }
 
   addCaracteristicaToForm(): void {
-    this.caracteristicas.push(this.convertPlantaCaracteristicaToForm(null, 'new'));
+    this.caracteristicas.push(
+      this.convertPlantaCaracteristicaToForm(null, 'new')
+    );
   }
 
   getFormGroup(index: number): FormGroup {

@@ -2,6 +2,7 @@ import { Planta } from 'src/app/shared/models/planta';
 import { PlantaSelecionadaService } from './../services/planta-selecionada.service';
 import { PlantaService } from './../services/planta.service';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -13,7 +14,7 @@ export class MainComponent implements OnInit {
 
   constructor(
     private plantasService: PlantaService,
-    private plantaSelecionada: PlantaSelecionadaService
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -23,6 +24,6 @@ export class MainComponent implements OnInit {
   }
 
   createNewPlanta(): void {
-    this.plantaSelecionada.plantaSelecionada.next('new');
+    this.router.navigate(['/plantas/new'])
   }
 }
