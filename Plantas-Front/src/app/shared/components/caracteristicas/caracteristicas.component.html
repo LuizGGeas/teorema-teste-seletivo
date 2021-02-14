@@ -1,5 +1,18 @@
 <div [formGroup]="form" class="caracteristicas">
-  <app-input [form]="form.get('nome')" label="Característica"></app-input>
+  <div *ngIf="origem === 'caracteristica'; else planta">
+    <app-input [form]="form.get('nome')" label="Característica"></app-input>
+  </div>
+
+  <ng-template #planta>
+    <mat-form-field>
+      <mat-label>Selecione uma caracteristica</mat-label>
+  <mat-select formControlName="nome">
+    <mat-option *ngFor="let caracteristica of caracteristicaList | async">
+      {{caracteristica.nome}}
+    </mat-option>
+  </mat-select>
+    </mat-form-field>
+  </ng-template>
   <div>
     <h4>Genótipos</h4>
     <div *ngFor="let genotipo of genotipos.controls">

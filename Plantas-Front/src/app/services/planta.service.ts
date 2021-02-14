@@ -22,9 +22,10 @@ export class PlantaService {
   }
 
   savePlanta(planta: Planta): Observable<Planta> {
-    console.log(planta);
+    if(planta.idPlanta) {
+      return this.http.put<Planta>(this.endPoint, planta);
+    }
     return this.http.post<Planta>(this.endPoint, planta);
   }
-
 
 }

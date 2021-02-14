@@ -1,0 +1,58 @@
+div.header {
+  display: block;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 200px !important;
+  left: 52%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+div.card {
+  .card-header {
+    &:hover {
+      & h3 {
+        text-decoration: underline;
+      }
+    }
+
+    .inline {
+      size: 1.3em;
+      font-weight: bold;
+      color: #46835f;
+      display: inline-block !important;
+      vertical-align: top;
+      h3 {
+        cursor: default;
+      }
+    }
+    i {
+      cursor: default;
+      margin-top: 19px !important;
+      color: #46835f;
+      margin-right: 47vh;
+    }
+  }
+
+  .caracteristicas {
+    height: 30vh;
+    width: max-content;
+    overflow-y: auto;
+  }
+}
+
+button {
+  padding: 6px 10px;
+  margin: 16px 0;
+  border: none;
+  outline: none;
+  background-color: #9cda9c;
+  &:active {
+    background-color: #56a756;
+  }
+}
+
+p {
+  color: rgb(207, 64, 64);
+}

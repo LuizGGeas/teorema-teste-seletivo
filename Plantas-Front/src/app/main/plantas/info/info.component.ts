@@ -1,16 +1,16 @@
+import { FormGroup } from '@angular/forms';
 import { PlantaService } from './../../../services/planta.service';
 import { Component, OnInit } from '@angular/core';
-import { FormArray, FormGroup } from '@angular/forms';
 import { Planta } from 'src/app/shared/models/planta';
 import { ActivatedRoute } from '@angular/router';
-import { FormUtils } from './form-utils';
+import { PlantaFormUtils } from './form-utils';
 
 @Component({
   selector: 'app-info',
   templateUrl: './info.component.html',
   styleUrls: ['./info.component.scss'],
 })
-export class InfoComponent extends FormUtils implements OnInit {
+export class InfoComponent extends PlantaFormUtils implements OnInit {
   planta: Planta;
 
   isPlantaInfoOpened = false;
@@ -31,7 +31,7 @@ export class InfoComponent extends FormUtils implements OnInit {
       this.acao = mode;
       if (id) {
         this.planta = await this.plantaService.getPlanta(id).toPromise();
-        this.form.patchValue(this.planta);
+        this.plantaForm.patchValue(this.planta);
         const caracteristicasForm: FormGroup[] = this.planta.caracteristicas.map(
           (caracteristica) =>
             this.convertPlantaCaracteristicaToForm(caracteristica, mode)
@@ -56,10 +56,10 @@ export class InfoComponent extends FormUtils implements OnInit {
 
   salvarPlanta(): void {
     if (this.validateForm()) {
-      const data = this.form.getRawValue();
+      const data = this.plantaForm.getRawValue();
 
       this.plantaService.savePlanta(data).subscribe(
-        () => this.form.reset(),
+        () => this.plantaForm.reset(),
         (error) => console.log(error)
       );
     }

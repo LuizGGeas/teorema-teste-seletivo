@@ -1,1 +1,14 @@
-<p>info works!</p>
+<div class="header">
+  <div class="form" [formGroup]="caracteristicaForm">
+    <div class="card">
+      <div class="card-header">
+        <div class="inline">
+          <h3>Dados da caracteristica</h3>
+        </div>
+      </div>
+      <div>
+        <app-input [form]="caracteristicaForm.get('nome')" label="Nome da característica"></app-input>
+      </div>
+    </div>
+  </div>
+</div>

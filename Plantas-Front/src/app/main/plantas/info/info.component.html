@@ -1,6 +1,6 @@
 <div class="header">
   <div class="form">
-    <div [formGroup]="form">
+    <div [formGroup]="plantaForm">
       <div class="card">
         <div class="card-header">
           <div class="inline">
@@ -8,18 +8,18 @@
           </div>
         </div>
         <div>
-          <app-input [form]="form.get('filoPlanta')" label="Filo"></app-input>
+          <app-input [form]="plantaForm.get('filoPlanta')" label="Filo"></app-input>
           <app-input
-            [form]="form.get('classePlanta')"
+            [form]="plantaForm.get('classePlanta')"
             label="Classe"
           ></app-input>
-          <app-input [form]="form.get('ordemPlanta')" label="Ordem"></app-input>
+          <app-input [form]="plantaForm.get('ordemPlanta')" label="Ordem"></app-input>
           <app-input
-            [form]="form.get('familiaPlanta')"
+            [form]="plantaForm.get('familiaPlanta')"
             label="Família"
           ></app-input>
           <app-input
-            [form]="form.get('nmPlanta')"
+            [form]="plantaForm.get('nmPlanta')"
             label="Nome da Planta"
           ></app-input>
         </div>

@@ -11,6 +11,5 @@ import { CaracteristicaService } from 'src/app/services/caracteristica.service';
 @NgModule({
   declarations: [CaracteristicaComponent, InfoComponent, ItensComponent],
   imports: [CommonModule, AppRoutingModule, ReactiveFormsModule, SharedModule],
-  providers: [CaracteristicaService],
 })
 export class CaracteristicaModule {}

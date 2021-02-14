@@ -7,23 +7,10 @@ import { InfoComponent } from './info/info.component';
 import { ItensComponent } from './itens/itens.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CaracteristicasComponent } from './info/caracteristicas/caracteristicas.component';
-
-
 
 @NgModule({
-  declarations: [
-    PlantasComponent,
-    InfoComponent,
-    ItensComponent,
-    CaracteristicasComponent
-  ],
-  imports: [
-    CommonModule,
-    AppRoutingModule,
-    ReactiveFormsModule,
-    SharedModule
-  ],
+  declarations: [PlantasComponent, InfoComponent, ItensComponent],
+  imports: [CommonModule, AppRoutingModule, ReactiveFormsModule, SharedModule],
   providers: [PlantaService],
 })
-export class PlantasModule { }
+export class PlantasModule {}

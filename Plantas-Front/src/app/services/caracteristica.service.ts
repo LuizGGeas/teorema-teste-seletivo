@@ -19,7 +19,10 @@ export class CaracteristicaService {
     return this.http.get<Caracteristica>(`${this.endPoint}/${index}`);
   }
 
-  saveCaracteristica(planta: Caracteristica): Observable<Caracteristica> {
-    return this.http.post<Caracteristica>(this.endPoint, planta);
+  saveCaracteristica(caracteristica: Caracteristica): Observable<Caracteristica> {
+    if(caracteristica.id) {
+      return this.http.put<Caracteristica>(this.endPoint, caracteristica);
+    }
+    return this.http.post<Caracteristica>(this.endPoint, caracteristica);
   }
 }

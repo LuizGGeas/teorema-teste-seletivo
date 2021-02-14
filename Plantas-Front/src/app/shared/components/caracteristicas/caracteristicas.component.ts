@@ -1,5 +1,7 @@
+import { CaracteristicaService } from 'src/app/services/caracteristica.service';
 import { FormGroup, FormArray, FormControl, AbstractControl } from '@angular/forms';
 import { Component, Input, OnInit } from '@angular/core';
+import { Caracteristica } from '../../models/caracteristica';
 
 @Component({
   selector: 'app-caracteristicas',
@@ -11,16 +13,30 @@ export class CaracteristicasComponent implements OnInit {
 
   @Input() acao = '';
 
+  @Input() origem = 'planta';
+
+  caracteristica: Caracteristica;
+
+  caracteristicaList: Promise<Caracteristica[]>;
+
   get genotipos(): FormArray {
     return this.form.get('genotipos') as FormArray;
   }
 
-  constructor() {}
+  constructor(private apiService: CaracteristicaService) {}
 
   ngOnInit(): void {
-    if (!this.genotipos.length && this.acao === 'new') {
+    if (!this.genotipos.length || this.acao === 'new') {
       this.addGenotipoToForm();
       this.addGenotipoToForm();
+    }
+
+    this.caracteristicaList = this.getCaracteristicasList();
+
+    if(this.origem === 'planta') {
+      this.form.get('nome').valueChanges.subscribe(data => {
+        this.caracteristica = data;
+      })
     }
   }
 
@@ -34,11 +50,11 @@ export class CaracteristicasComponent implements OnInit {
     );
   }
 
-  getFormGroup(form: AbstractControl): FormGroup {
-    return form as FormGroup;
+  async getCaracteristicasList(): Promise<Caracteristica[]> {
+    return await this.apiService.getCaracteristicaList().toPromise();
   }
 
-  getControlAt(index): FormGroup {
-    return this.genotipos.at(index) as FormGroup;
+  getFormGroup(form: AbstractControl): FormGroup {
+    return form as FormGroup;
   }
 }
