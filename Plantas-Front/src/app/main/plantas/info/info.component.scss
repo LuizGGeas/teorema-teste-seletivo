@@ -37,12 +37,25 @@ div.card {
 
   .caracteristicas {
     height: 30vh;
-    width: max-content;
+    width: 400px;
     overflow-y: auto;
   }
 }
 
 button {
+
+  &.button {
+    position: fixed;
+    top: 140px;
+    right: 350px;
+  }
+
+  &.delete {
+    position: fixed;
+    top: 140px;
+    right: 200px;
+  }
+
   padding: 6px 10px;
   margin: 16px 0;
   border: none;

@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class PlantaService {
-  endPoint = 'http://localhost:8080/planta';
+  private endPoint = 'http://localhost:8080/planta';
 
   constructor(private http: HttpClient) {}
 
@@ -17,8 +17,8 @@ export class PlantaService {
     return this.http.get<Planta[]>(this.endPoint);
   }
 
-  getPlanta(index: any): Observable<Planta> {
-    return this.http.get<Planta>(`${this.endPoint}/${index}`);
+  getPlanta(id: any): Observable<Planta> {
+    return this.http.get<Planta>(`${this.endPoint}/${id}`);
   }
 
   savePlanta(planta: Planta): Observable<Planta> {
@@ -26,6 +26,10 @@ export class PlantaService {
       return this.http.put<Planta>(this.endPoint, planta);
     }
     return this.http.post<Planta>(this.endPoint, planta);
+  }
+
+  deletePlanta(id) {
+    return this.http.delete(`${this.endPoint}/${id}`)
   }
 
 }

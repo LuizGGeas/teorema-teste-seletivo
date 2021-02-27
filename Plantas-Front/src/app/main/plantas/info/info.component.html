@@ -38,7 +38,7 @@
             {{isPlantaCaracteristicasOpened ? "expand_more" : "chevron_right"}}
           </i>
         </div>
-        <div *ngIf="isPlantaCaracteristicasOpened" class="caracteristicas">
+        <div [hidden]="!isPlantaCaracteristicasOpened" class="caracteristicas">
           <div *ngFor="let caracteristica of caracteristicas.controls;let i = index" [formGroupName]="i">
             <hr *ngIf="i <= caracteristicas.length && i != 0"/>
             <app-caracteristicas [form]="getFormGroup(i)" [acao]="acao"></app-caracteristicas>
@@ -52,6 +52,7 @@
         </div>
       </div>
     </div>
-    <button *ngIf="acao !== 'info'" (click)="salvarPlanta()">SALVAR PLANTA</button>
+    <button *ngIf="acao !== 'info'" class="button" (click)="salvarPlanta()">SALVAR PLANTA</button>
+    <button *ngIf="acao !== 'new'" class="delete" [disabled]="!planta" (click)="deletarPlanta()">DELETAR PLANTA</button>
   </div>
 </div>

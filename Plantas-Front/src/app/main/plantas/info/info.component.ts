@@ -28,7 +28,7 @@ export class InfoComponent extends PlantaFormUtils implements OnInit {
     this.initalizeForm();
     this.routeSnapshot.params.subscribe(async (data) => {
       const { id, mode } = data;
-      this.acao = mode;
+      this.acao = mode ? mode : 'new';
       if (id) {
         this.planta = await this.plantaService.getPlanta(id).toPromise();
         this.plantaForm.patchValue(this.planta);
@@ -45,8 +45,7 @@ export class InfoComponent extends PlantaFormUtils implements OnInit {
   }
 
   addCaracteristicaToForm(): void {
-    const form = this.convertPlantaCaracteristicaToForm(null, 'new');
-    console.log(form);
+    const form = this.convertPlantaCaracteristicaToForm(null, this.acao);
     this.caracteristicas.push(form);
   }
 
@@ -56,12 +55,35 @@ export class InfoComponent extends PlantaFormUtils implements OnInit {
 
   salvarPlanta(): void {
     if (this.validateForm()) {
-      const data = this.plantaForm.getRawValue();
+      const data: Planta = this.plantaForm.getRawValue();
+      console.log(data);
+      data.caracteristicas.forEach((caracteristica) => {
+        if (typeof caracteristica.nome !== 'string') {
+          caracteristica.nome = (caracteristica.nome as any).nome;
+        }
 
+        caracteristica.alelos = caracteristica.alelos.filter(
+          (alelo) => alelo.caracteristica
+        );
+        caracteristica.genotipos = caracteristica.genotipos.filter(
+          (genotipo) => genotipo.caracteristica
+        );
+      });
+
+      console.log(data);
+      debugger;
       this.plantaService.savePlanta(data).subscribe(
         () => this.plantaForm.reset(),
         (error) => console.log(error)
       );
+    }
+  }
+
+  deletarPlanta() {
+    try {
+      this.plantaService.deletePlanta(this.planta.idPlanta).toPromise();
+    } catch (error) {
+      console.error(error);
     }
   }
 }

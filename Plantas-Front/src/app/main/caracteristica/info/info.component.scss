@@ -51,6 +51,10 @@ button {
   &:active {
     background-color: #56a756;
   }
+
+  &.delete {
+    margin-left: 16px;
+  }
 }
 
 p {

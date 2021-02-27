@@ -36,3 +36,18 @@ span {
   color: #858685;
   padding-left: 6px;
 }
+
+button {
+  padding: 6px 10px;
+  margin: 16px 10px;
+  border: none;
+  outline: none;
+  background-color: #9cda9c;
+  &:active {
+    background-color: #56a756;
+  }
+
+  &.secondary {
+    background-color: #c1d83f;
+  }
+}

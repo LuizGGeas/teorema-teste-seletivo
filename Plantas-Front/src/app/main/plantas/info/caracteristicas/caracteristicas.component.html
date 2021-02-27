@@ -1,0 +1,31 @@
+<div [formGroup]="form" class="caracteristicas">
+  <div>
+    <mat-form-field>
+      <mat-label>Selecione uma caracteristica</mat-label>
+      <mat-select formControlName="nome" [compareWith]="attributeDisplay">
+        <mat-option
+          *ngFor="let caracteristica of caracteristicaList | async"
+          [value]="caracteristica"
+        >
+          {{ caracteristica.nome }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div>
+    <h4>Genótipos</h4>
+    <div *ngFor="let item of alelos.controls; let i = index">
+      <mat-form-field>
+        <mat-label>Selecione o Genótipo {{ i + 1 }}</mat-label>
+        <mat-select
+          (selectionChange)="setGenotipoOnIndex($event, i)"
+          [compareWith]="attributeDisplay"
+        >
+          <mat-option *ngFor="let alelo of aleloList" [value]="alelo">
+            {{ alelo.tpAlelo }} - {{ alelo.caracteristica }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+</div>

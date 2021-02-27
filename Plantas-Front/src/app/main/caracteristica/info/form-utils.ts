@@ -6,8 +6,6 @@ export class CaracteristicaFormUtils {
 
   caracteristicaList: Caracteristica[] = [];
 
-  aleloList: Alelo[] = []
-
   initializeForm() {
     this.caracteristicaForm = new FormGroup({
       id: new FormControl(null),
@@ -33,15 +31,15 @@ export class CaracteristicaFormUtils {
           return new FormGroup({
             idAlelo: new FormControl({
               value: alelo.idAlelo,
-              disabled: acao !== 'info',
+              disabled: acao === 'info',
             }),
             caracteristica: new FormControl({
-              value: alelo.caracteristica,
-              disabled: acao !== 'info',
+              value: alelo,
+              disabled: acao === 'info',
             }),
             tpAlelo: new FormControl({
               value: alelo.tpAlelo,
-              disabled: acao !== 'info',
+              disabled: acao === 'info',
             }),
           });
         }
@@ -64,27 +62,22 @@ export class CaracteristicaFormUtils {
           });
         }
       );
+
       if (alelosForm) {
         alelosForm.forEach((form) => {
-          ((this.caracteristicaForm.get('caracteristica') as FormGroup).get(
-            'alelos'
-          ) as FormArray).push(form);
+          (this.caracteristicaForm.get('alelos') as FormArray).push(form);
         });
       }
 
       if (genotipoForm) {
         genotipoForm.forEach((form) => {
-          (this.caracteristicaForm.get('genotipo') as FormArray).push(form);
+          const formArray = this.caracteristicaForm.get('genotipos') as FormArray;
+          debugger;
+          formArray.push(form);
         });
       }
-      return this.caracteristicaForm;
     }
 
-    return new FormGroup({
-      id: new FormControl(null),
-      nome: new FormControl(null),
-      alelos: new FormArray([]),
-      genotipos: new FormArray([]),
-    });
+    return this.caracteristicaForm;
   }
 }

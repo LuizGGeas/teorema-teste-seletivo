@@ -7,8 +7,31 @@
         </div>
       </div>
       <div>
-        <app-input [form]="caracteristicaForm.get('nome')" label="Nome da característica"></app-input>
+        <app-input
+          [form]="caracteristicaForm.get('nome')"
+          label="Nome da característica"
+        ></app-input>
       </div>
+      <div formArrayName="alelos">
+        <h4>Alelos</h4>
+        <div *ngFor="let item of alelos.controls; let i = index" [formGroupName]="i">
+          <div [formGroup]="getFormGroupAt(i)">
+            <mat-form-field>
+              <mat-label>Selecione o Alelo {{i + 1}}</mat-label>
+              <mat-select formControlName="caracteristica" [compareWith]="attributeDisplay">
+                <mat-option *ngFor="let alelo of aleloList" [value]="alelo">
+                  {{ alelo.tpAlelo + ' - ' + alelo.caracteristica }}
+                </mat-option>
+                <mat-option (click)="adicionarAleloToList(i)">Adicionar novo alelo</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button (click)="saveCaracteristica()">Salvar</button>
+      <button (click)="deleteCaracteristica()" class="delete" [disabled]="!caracteristica">DELETAR</button>
     </div>
   </div>
 </div>

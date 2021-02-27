@@ -1,0 +1,15 @@
+<h3>Adicionar alelo</h3>
+<div [formGroup]="aleloForm">
+  <app-input
+    [form]="aleloForm.get('caracteristica')"
+    label="Nome da caracteristica"
+  ></app-input>
+  <input type="radio" formControlName="tpAlelo" value="A"/> <span>Dominante</span>
+  <input type="radio" formControlName="tpAlelo" value="a"/> <span>Recessivo</span>
+</div>
+<div>
+  <div class="inline">
+    <button mat-button (click)="adicionarAlelo()">SALVAR</button>
+    <button mat-button class="secondary" (click)="fecharDialog()">CANCELAR</button>
+  </div>
+</div>
