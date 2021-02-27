@@ -1,9 +1,12 @@
+import { SuccessDialogComponent } from './../../../shared/components/success-dialog/success-dialog.component';
+import { MatDialog } from '@angular/material/dialog';
 import { FormGroup } from '@angular/forms';
 import { PlantaService } from './../../../services/planta.service';
 import { Component, OnInit } from '@angular/core';
 import { Planta } from 'src/app/shared/models/planta';
 import { ActivatedRoute } from '@angular/router';
 import { PlantaFormUtils } from './form-utils';
+import { ErrorDialogComponent } from 'src/app/shared/components/error-dialog/error-dialog.component';
 
 @Component({
   selector: 'app-info',
@@ -19,7 +22,8 @@ export class InfoComponent extends PlantaFormUtils implements OnInit {
 
   constructor(
     private plantaService: PlantaService,
-    private routeSnapshot: ActivatedRoute
+    private routeSnapshot: ActivatedRoute,
+    private dialog: MatDialog
   ) {
     super();
   }
@@ -40,6 +44,8 @@ export class InfoComponent extends PlantaFormUtils implements OnInit {
         caracteristicasForm.forEach((element) => {
           this.caracteristicas.push(element);
         });
+      } else {
+        this.addCaracteristicaToForm();
       }
     });
   }
@@ -69,12 +75,12 @@ export class InfoComponent extends PlantaFormUtils implements OnInit {
           (genotipo) => genotipo.caracteristica
         );
       });
-
-      console.log(data);
-      debugger;
       this.plantaService.savePlanta(data).subscribe(
-        () => this.plantaForm.reset(),
-        (error) => console.log(error)
+        () => {
+          this.plantaForm.reset();
+          this.dialog.open(SuccessDialogComponent);
+        },
+        (error) => this.dialog.open(ErrorDialogComponent)
       );
     }
   }
@@ -83,7 +89,7 @@ export class InfoComponent extends PlantaFormUtils implements OnInit {
     try {
       this.plantaService.deletePlanta(this.planta.idPlanta).toPromise();
     } catch (error) {
-      console.error(error);
+      this.dialog.open(ErrorDialogComponent);
     }
   }
 }

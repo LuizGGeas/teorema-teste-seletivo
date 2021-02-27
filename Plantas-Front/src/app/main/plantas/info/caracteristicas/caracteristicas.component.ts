@@ -4,7 +4,6 @@ import {
   FormGroup,
   FormArray,
   FormControl,
-  AbstractControl,
 } from '@angular/forms';
 import { Component, Input, OnInit } from '@angular/core';
 import { Caracteristica } from '../../../../shared/models/caracteristica';
@@ -33,16 +32,20 @@ export class CaracteristicasComponent implements OnInit {
 
   ngOnInit(): void {
     this.caracteristica = this.form.getRawValue();
-    this.aleloList = this.caracteristica.alelos;
+    this.aleloList = this.caracteristica.alelos.map(alelo => {
+      if(typeof alelo.caracteristica !== 'string') {
+        alelo.caracteristica = (alelo.caracteristica as any).caracteristica;
+      }
+      return alelo;
+    });
+
 
     this.caracteristicaList = this.getCaracteristicasList();
 
     this.form.get('nome').valueChanges.subscribe(() => {
       this.caracteristica = this.form.get('nome').value;
       this.aleloList = this.caracteristica.alelos;
-      console.log(this.alelos.value);
       this.alelos.reset([]);
-      console.log(this.alelos.value);
       this.aleloList.forEach((alelo) => {
         if(alelo.caracteristica) {
           this.addAleloToForm(alelo);

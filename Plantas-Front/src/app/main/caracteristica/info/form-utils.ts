@@ -22,6 +22,7 @@ export class CaracteristicaFormUtils {
     this.initializeForm();
     if (caracteristica) {
       this.caracteristicaForm.patchValue(caracteristica);
+      this.caracteristicaForm.get('nome').setValue(caracteristica);
       if(acao === 'info') {
         this.caracteristicaForm.get('nome').disable();
       }
